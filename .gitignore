@@ -1,0 +1,28 @@
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+output/
+*.pyc
+.DS_Store
+
+# Local configuration and machine-specific runtime state
+config.ini
+.runtime.json
+
+# Input audio, model weights, and generated transcripts
+audio/
+.models/
+models/
+
+# Logs and downloaded installers
+*.log
+*.exe
+
+# Audio samples in common formats
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
